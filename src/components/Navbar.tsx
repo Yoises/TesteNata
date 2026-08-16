@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import ThemeToggle from "./ThemeToggle";
-
+import { Title } from "../constants/Title";
 
 
 // ⬇️ NUEVO: la función del selector, ARRIBA de Navbar
@@ -51,7 +51,7 @@ export default function Navbar() {
           onClick={() => setOpen(false)}
           className="font-headline-h3 text-headline-h3 text-primary tracking-tighter shrink-0"
         >
-          ALMA DE LISBOA
+          {Title}
         </NavLink>
 
         <div className="hidden md:flex gap-gutter items-center">

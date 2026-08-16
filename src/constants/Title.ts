@@ -1,0 +1,1 @@
+export const Title = "The Secret Nata Society";

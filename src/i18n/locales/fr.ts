@@ -1,3 +1,5 @@
+import { Title } from "../../constants/Title";
+
 export default {
   nav: {
     home: "Accueil",
@@ -65,7 +67,7 @@ export default {
     ],
   },
   about: {
-    heroTitle: "Notre Histoire : Le Cœur de Lisbonne",
+    heroTitle: `Notre Histoire : ${Title}`,
     heroSubtitle:
       "Née d'un profond amour pour le patrimoine culinaire vibrant du Portugal, Alma de Lisboa est un hommage aux artisans, aux recettes et aux rues pleines d'âme qui ont façonné le récit de notre ville depuis des siècles.",
     heritageTitle: "Découvrir l'Âme à Travers la Pâtisserie",

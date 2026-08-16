@@ -34,7 +34,7 @@ export interface SocialLink {
 }
 
 export const socialLinks: SocialLink[] = [
-  { label: "Instagram", href: "#", Icon: IconInstagram },
+  { label: "Instagram", href: "https://www.instagram.com/thesecretnatasociety/", Icon: IconInstagram },
   { label: "TikTok", href: "#", Icon: IconTikTok },
   { label: "Facebook", href: "#", Icon: IconFacebook },
 ];

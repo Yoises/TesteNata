@@ -1,3 +1,4 @@
+import { Title } from "../constants/Title";
 import { socialLinks } from "./SocialIcons";
 import { useTranslation } from "react-i18next";
 
@@ -34,7 +35,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-stack-md px-margin-mobile md:px-margin-desktop py-stack-lg max-w-container-max mx-auto">
         <div className="col-span-1 md:col-span-2 flex flex-col gap-4">
           <div className="font-headline-h2 text-headline-h2 text-primary">
-            ALMA DE LISBOA
+            {Title}
           </div>
           <p className="font-body-md text-body-md text-tertiary mt-2 max-w-sm">
             ({t("footer.tagline")})
